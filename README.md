@@ -30,8 +30,8 @@ Assume you clone the source code in `~/workspace/nginx-http-json-log` folder.
 
 1. Get a copy of nginx source code in `~/workspace/nginx`
 2. cd to `~/workspace/nginx`
-3. Run `./auto/config [other options] --add-module='../nginx-http-json-log'`
-4. Run `make`
+3. Run `./auto/config [other options] --add-dynamic-module='../nginx-http-json-log'`
+4. Run `make` (or `make modules` if you only need/want to build the module so files)
 
 ## How to use
 
